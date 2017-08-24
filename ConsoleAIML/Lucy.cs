@@ -33,7 +33,6 @@ namespace ConsoleAIML
             AimlBot.isAcceptingUserInput = true;
         }
 
-        // Given an input string, finds a response using AIMLbot lib
         public String getOutput(String input)
         {
             Request r = new Request(input, myUser, AimlBot);
